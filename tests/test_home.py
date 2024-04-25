@@ -13,7 +13,7 @@ class TestHome(BaseClass):
         logger = self.get_logger('test_home')
         # Expected results.
         expected_alert_text = 'Success!'
-        logger.info(f'********** Test Data **********\n  - Name: {get_data["first_name"]}\n'
+        logger.info(f'\n********** Test Data **********\n  - Name: {get_data["first_name"]}\n'
                     f'  - Email: {get_data["email"]}\n  - Gender: {get_data["gender"]}')
         # Define Navigator and homepage.
         logger.info(" - Starting Test at Home Page.")
@@ -41,6 +41,6 @@ class TestHome(BaseClass):
         logger.info(" - Refresh page to restart test conditions.")
         self.driver.refresh()
 
-    @pytest.fixture(params=HomePageTestData.home_page_test_data)
+    @pytest.fixture(params=HomePageTestData.get_test_data('test_case_2'))
     def get_data(self, request):
         return request.param

@@ -1,0 +1,17 @@
+2024-04-25 15:23:16,582 : INFO : test_home : ********** Test Data **********
+  - Name: Carlos
+  - Email: carlos@hotmail.com
+  - Gender: Male
+2024-04-25 15:23:16,582 : INFO : test_home :  - Starting Test at Home Page.
+2024-04-25 15:23:16,584 : INFO : test_home : Current Page - Home - Title: ProtoCommerce
+2024-04-25 15:23:16,585 : INFO : test_home : Current Page - Home - Url: https://rahulshettyacademy.com/angularpractice/
+2024-04-25 15:23:16,585 : INFO : test_home : - Enter name: Carlos
+2024-04-25 15:23:16,648 : INFO : test_home : - Enter email: carlos@hotmail.com
+2024-04-25 15:23:16,672 : INFO : test_home : - Check the "I like Icecream" checkbox.
+2024-04-25 15:23:16,919 : INFO : test_home : - Click on Submit button.
+2024-04-25 15:23:17,152 : INFO : test_home : 
+********** Success Alert Text ********** 
+   - Expected text included: Success!
+   - Current text: ×
+Success! The Form has been submitted successfully!.
+2024-04-25 15:23:17,152 : INFO : test_home :  - Refresh page to restart test conditions.

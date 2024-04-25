@@ -1,5 +1,6 @@
 import inspect
 import logging
+from datetime import datetime
 
 import pytest
 from selenium.webdriver.support import expected_conditions
@@ -17,8 +18,10 @@ class BaseClass:
         # Creating the logger object.
         logger = logging.getLogger(logger_name)
         # create the file handler object.
+        execution_date_time = datetime.now()
+        execution_dt_string = execution_date_time.strftime('_%d_%m_%Y-%Hh%Mm%Ss')
         file_handler = logging.FileHandler(
-            'C:/Users/HP/OneDrive/Documentos/PyProjects/E2E_example/tests/logs/' + file_name + '.log')
+            f'C:/Users/HP/Documents/PyProjects/E2E_example/tests/logs/{file_name}{execution_dt_string}.log')
         # Define the format to log.
         formatter = logging.Formatter("%(asctime)s : %(levelname)s : %(name)s : %(message)s")
         # Add the format to the file handler object.

@@ -1,0 +1,33 @@
+2024-04-25 15:24:58,681 : INFO : test_shop :  - Starting Test at Home Page.
+2024-04-25 15:24:58,685 : INFO : test_shop : Current Page - Home - Title: ProtoCommerce
+2024-04-25 15:24:58,687 : INFO : test_shop : Current Page - Home - Url: https://rahulshettyacademy.com/angularpractice/
+2024-04-25 15:25:00,222 : INFO : test_shop :  - Go To Shop Page.
+2024-04-25 15:25:00,225 : INFO : test_shop : Current Page - Shop - Title: ProtoCommerce
+2024-04-25 15:25:00,228 : INFO : test_shop : Current Page - Shop - Url: https://rahulshettyacademy.com/angularpractice/shop
+2024-04-25 15:25:00,228 : INFO : test_shop :  - Selecting one product and adding it to cart.
+2024-04-25 15:25:00,509 : INFO : test_shop : 
+********** Checkout Button Text ********** 
+   - Expected text included: Checkout ( 1 )
+   - Current text: Checkout ( 1 )
+(current)
+2024-04-25 15:25:00,509 : INFO : test_shop :  - Go To Checkout Page.
+2024-04-25 15:25:00,734 : INFO : test_shop : Current Page - Checkout - Title: ProtoCommerce
+2024-04-25 15:25:00,737 : INFO : test_shop : Current Page - Checkout - Url: https://rahulshettyacademy.com/angularpractice/shop
+2024-04-25 15:25:00,737 : INFO : test_shop :  - Go To Confirmation Page.
+2024-04-25 15:25:01,000 : INFO : test_shop : Current Page - Confirmation - Title: ProtoCommerce
+2024-04-25 15:25:01,003 : INFO : test_shop : Current Page - Confirmation - Url: https://rahulshettyacademy.com/angularpractice/shop
+2024-04-25 15:25:01,003 : INFO : test_shop :  - Selecting Country.
+2024-04-25 15:25:06,356 : INFO : test_shop : 
+********** Selected Country ********** 
+   - Expected country: India
+   - Current country: India
+2024-04-25 15:25:06,356 : INFO : test_shop :  - Press Purchase Button.
+2024-04-25 15:25:06,598 : INFO : test_shop : 
+********** Success alert visibility ********** 
+   - Expected visibility: True
+   - Current visibility: True
+2024-04-25 15:25:06,609 : INFO : test_shop : 
+********** Success alert text ********** 
+   - Expected Text Included: Success!
+   - Current Text: ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
